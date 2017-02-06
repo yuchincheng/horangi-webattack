@@ -50,7 +50,6 @@ python detector.py
 
 # TXT format Output: 2017-02-06_analysis_impac.txt #
 ```
-
 URL = %2Fwp-content%2Fuploads%2F2014%2F06%2Fwp-index.php%3F450699%26babaraba%3Dvb%26php4%26root%26upl%26wphp4%26abdullkarem%26wp%26module%26php%26php5%26wphp5
 maxImpact = 6  #Maximum Impact of matched ID
 Referer = ['-'] #no referer
@@ -58,7 +57,3 @@ ClientHosts: ['67.213.222.143']  # WHo perfom this request
 Matched ID: set(['80', '79']) #Matched ID
 ```
 
-# HTML format Output: 2017-02-06_analysis_impac.html #
-```
-
-```

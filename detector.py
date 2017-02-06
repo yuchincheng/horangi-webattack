@@ -465,7 +465,7 @@ def generate_html_Impact(AttackResult,ImpactLevel):
 def getMalIP(AttackResult):
     malip = []
     for names in AttackResult:
-        for item in Attack[name]:
+        for item in AttackResult[names]:
             if item['maxImpact'] > 4:
                 for ip in item['ClientHost']:
                     malip.append(ip)
@@ -504,9 +504,10 @@ def main():
     XmlDict = getDictData(str(xmlrulelist))
     AttackResult =dispatchDataToResult(XmlDict,attackDict)
     malip = getMalIP(AttackResult)
-    print malip
+    print("============================================")
+    print ("Malicious IP for further tracing: %s \n\n" % (malip))
     
-    '''
+    
     print("============================================")
     for name in AttackResult:
         print ("%s Attack: %s \n" % (name, names[name]))
@@ -517,7 +518,7 @@ def main():
         print("============================================")
     generate_html_Impact(AttackResult, ImpactLevel)
     generate_text_file(AttackResult, ImpactLevel)
-    '''
+    
 
 if __name__ == "__main__":
     main()

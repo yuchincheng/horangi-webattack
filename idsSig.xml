@@ -796,8 +796,17 @@
     </filter>
     <filter>
         <id>80</id>
-        <rule><![CDATA[(?:^\/(.*)([r57|c99|c100|k4m1kz|ASPXspy2|(\w+)shell|TrYaG|Angel|Zehir4|(\w+)fso(\w+)|webadmin]\.(php|txt|php5|sh|jsp)))]]></rule>
-        <description>Well-known web shell filename</description>
+        <rule><![CDATA[(?:^\/(.*)(r57|c99|c100|k4m1kz|ASPXspy2|(\w)*shell|TrYaG|Angel|Zehir4|(\w)*fso(\w)*|webadmin){1}\.(php|txt|php5|sh|jsp))]]></rule>
+        <description>Well-known web shell filename (1/2)</description>
+        <tags>
+            <tag>ws</tag>
+        </tags>
+        <impact>5</impact>
+    </filter>
+    <filter>
+        <id>81</id>
+        <rule><![CDATA[(?:^\/(.*)\/(\w)*((\.DS_Store)|(\.cgi)|(\/\.(\w+))))]]></rule>
+        <description>Well-known web shell filename (2/2</description>
         <tags>
             <tag>ws</tag>
         </tags>
