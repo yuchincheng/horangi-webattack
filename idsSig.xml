@@ -794,7 +794,7 @@
         </tags>
         <impact>6</impact>
     </filter>
-    <filter>
+     <filter>
         <id>80</id>
         <rule><![CDATA[(?:^\/(.*)(r57|c99|c100|k4m1kz|ASPXspy2|(\w)*shell|TrYaG|Angel|Zehir4|(\w)*fso(\w)*|webadmin){1}\.(php|txt|php5|sh|jsp))]]></rule>
         <description>Well-known web shell filename (1/2)</description>
@@ -803,7 +803,7 @@
         </tags>
         <impact>5</impact>
     </filter>
-    <filter>
+     <filter>
         <id>81</id>
         <rule><![CDATA[(?:^\/(.*)\/(\w)*((\.DS_Store)|(\.cgi)|(\/\.(\w+))))]]></rule>
         <description>Well-known web shell filename (2/2</description>
@@ -813,18 +813,3 @@
         <impact>3</impact>
     </filter>
 </filters>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

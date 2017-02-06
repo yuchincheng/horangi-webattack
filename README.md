@@ -1,6 +1,8 @@
 # horangi-webattack
 Web log analyzer for detecting web attacks by signature matching
 
+
+See analysis flowchart:
 [!(https://github.com/yuchincheng/horangi-webattack/blob/master/Flowcharts.png)]((https://github.com/yuchincheng/horangi-webattack/blob/master/Flowcharts.png))
 
 # Description #
