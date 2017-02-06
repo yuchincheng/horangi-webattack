@@ -380,7 +380,7 @@ def generate_text_file(AttackResult, ImpactLevel):
             out.write("%s : %s\n\n " % (attname, names[attname]))
             
             for t in AttackResult[attname]:
-                if int(t['maxImpact']) > 3: 
+                if int(t['maxImpact']) > 4: 
                     out.write("URL = %s\n " %  t['URL'] )
                     out.write("maxImpact = %d\n" %  int(t['maxImpact']))
                     out.write("Referer = %s\n" % t['referer'])
@@ -388,7 +388,7 @@ def generate_text_file(AttackResult, ImpactLevel):
                     idlist = []
                     for j in t['MatchID']:
                         idlist.append(j['matchedID'])
-                    out.write("Matched ID: %s\n\n" %  idlist)
+                    out.write("Matched ID: %s\n\n" %  set(idlist))
                 
         out.close()
     except IOError:
@@ -417,7 +417,7 @@ def generate_html_Impact(AttackResult,ImpactLevel):
             out.write("<table id='mytable' cellspacing='0' width=800px style='word-break:break-all'><caption align='left'><h2>%s : %s </h2></caption>" % (attname, names[attname]))
             
             for t in AttackResult[attname]:
-                if int(t['maxImpact']) > 3: 
+                if int(t['maxImpact']) > 4: 
                     t['URL'] = urllib.quote_plus(t['URL'])
                     out.write("<tr><th scope='row' abbr='Model' class='spec'>%s</th></tr>" %  t['URL'] )
                     out.write("<tr><th scope='row' abbr='Model' class='spec'>maxImpact: %d</th></tr>" %  int(t['maxImpact']))
@@ -426,7 +426,7 @@ def generate_html_Impact(AttackResult,ImpactLevel):
                     idlist = []
                     for j in t['MatchID']:
                         idlist.append(j['matchedID'])
-                    out.write("<tr><th scope='row' abbr='G5 Processor' class='specalt'>Matched ID: %s</th></tr>" %  idlist)
+                    out.write("<tr><th scope='row' abbr='G5 Processor' class='specalt'>Matched ID: %s</th></tr>" %  set(idlist))
                 
             out.write("</table>")
             out.write("<br><br>")
@@ -462,6 +462,15 @@ def generate_html_Impact(AttackResult,ImpactLevel):
         print("Cannot open the file:", fname)
     return
     
+def getMalIP(AttackResult):
+    malip = []
+    for names in AttackResult:
+        for item in Attack[name]:
+            if item['maxImpact'] > 4:
+                for ip in item['ClientHost']:
+                    malip.append(ip)
+    return set(malip)
+
 def getDictData(strdata):
     XmlDict =ast.literal_eval(strdata)
     return XmlDict
@@ -487,25 +496,28 @@ def main():
                 JsonResult['analysis'] = result
                 matcherList.append(JsonResult)
     
-    print matcherList
+    #print matcherList
             
     ImpactLevel = impact_analysis (matcherList, xmlrulelist)
     
     attackDict =attack_analysis (matcherList, xmlrulelist)
     XmlDict = getDictData(str(xmlrulelist))
     AttackResult =dispatchDataToResult(XmlDict,attackDict)
+    malip = getMalIP(AttackResult)
+    print malip
     
+    '''
     print("============================================")
     for name in AttackResult:
         print ("%s Attack: %s \n" % (name, names[name]))
         for t in AttackResult[name]:
-            if int(t['maxImpact']) > 3: 
-                print ("maxImpact:%d  %s" % (int(t['maxImpact']), t['URL']))
+            if int(t['maxImpact']) > 4: 
+                print ("attack:%d  %s" % (int(t['maxImpact']), t['URL']))
         
         print("============================================")
     generate_html_Impact(AttackResult, ImpactLevel)
     generate_text_file(AttackResult, ImpactLevel)
-    
+    '''
 
 if __name__ == "__main__":
     main()

@@ -796,12 +796,12 @@
     </filter>
     <filter>
         <id>80</id>
-        <rule><![CDATA[(?:^\/(.*)[r57|c99|c100|k4m1kz|ASPXspy2|(\w+)shell|TrYaG|Angel|Zehir4|(\w+)fso(\w+)|webadmin]\.(php|txt|php5|sh|jsp))]]></rule>
+        <rule><![CDATA[(?:^\/(.*)([r57|c99|c100|k4m1kz|ASPXspy2|(\w+)shell|TrYaG|Angel|Zehir4|(\w+)fso(\w+)|webadmin]\.(php|txt|php5|sh|jsp)))]]></rule>
         <description>Well-known web shell filename</description>
         <tags>
             <tag>ws</tag>
         </tags>
-        <impact>4</impact>
+        <impact>3</impact>
     </filter>
 </filters>
 
