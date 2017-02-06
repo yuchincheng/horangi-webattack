@@ -1,7 +1,7 @@
 # horangi-webattack
 Web log analyzer for detecting web attacks by signature matching
 
-[![Flowchart Description](https://github.com/yuchincheng/horangi-webattack/blob/master/Flowcharts.png)](https://codeclimate.com/github/garethellis36/IIS-Log-Parser)
+[![](.Flowcharts.png =400x200)(https://github.com/yuchincheng/horangi-webattack/blob/master/Flowcharts.png)](https://codeclimate.com/github/garethellis36/IIS-Log-Parser)
 
 PHP class for parsing IIS log entries
 
